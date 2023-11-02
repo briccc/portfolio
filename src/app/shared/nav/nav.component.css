@@ -1,0 +1,23 @@
+
+.titulo{
+        color:  var(--md-sys-color-primary);
+}
+
+.nav-links li{
+        color:  var(--md-sys-color-inverse-primary);
+        padding: 4px;
+}
+
+.nav-links li:hover{
+
+        background-color: var(--md-sys-color-surface-variant); 
+        border-radius: 6%;
+
+}
+
+.nav-links a{
+        font-weight: bolder;
+        
+}
+
+

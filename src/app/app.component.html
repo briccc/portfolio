@@ -1,0 +1,13 @@
+<ng-container *ngIf="!isMobile; else mobileLayout">
+    <app-desktop>
+        <app-home></app-home>
+        <app-about></app-about>
+        <!-- <app-projects></app-projects> -->
+    </app-desktop>
+</ng-container>
+
+<ng-template #mobileLayout>
+    <app-mobile>
+        <app-home></app-home>
+    </app-mobile>
+</ng-template>

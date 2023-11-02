@@ -1,0 +1,10 @@
+.presentation h2{
+    color: var(--md-sys-color-primary);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.presentation p{
+    color: var(--md-sys-color-on-surface);
+    font-size: 26px;
+}

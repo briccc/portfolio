@@ -1,0 +1,9 @@
+@import url(css/theme.css);
+@import url(css/colors.module.css);
+
+
+:root{
+    --font-family:'Montserrat', sans-serif;
+    --primary-text: var(--md-sys-color-primary);
+}
+
